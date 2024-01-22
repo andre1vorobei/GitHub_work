@@ -168,7 +168,7 @@ void DeletePrime(bool *sieve, unsigned ll right, unsigned ll Prime){
 //Многопоточное решето Эратосфена.
 void SearchSimple(bool *sieve, thread *thr, ll right, int th_quant){
 
-    int first_primes[16]{2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47};
+    int first_primes[16]{2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 51};
     unsigned ll right1 = right+1;
     unsigned ll sqrt_right1 = sqrt(right1)+1;    
     int th_num = 0;
